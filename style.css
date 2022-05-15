@@ -9,7 +9,9 @@
   box-sizing: border-box;
 }
 
-
+a #year-1 {
+  scroll-behavior: smooth;
+}
 .navbar h1 {
   display: flex; 
   justify-content: center;
