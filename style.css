@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
 
 * {
   margin: 0;
@@ -61,9 +64,123 @@ a:focus::after{
 }
 
 
+.container {
+  margin: 100px 100px 0 100px;
+}
 .video {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 100px;
 }
+.text-title {
+  margin: 300px 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Koulen', cursive;
+  font-weight: 400;
+  font-size: 80px;
+}
+.images {
+  margin: 185px 0;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+
+.images img {
+  width: 600px;
+  height: 500px;
+  }
+
+  .title-year {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-family:'Koulen', cursive;
+    color: #39FF14;
+    font-size: 40px;
+    margin: 100px 0 0 0;
+  }
+
+  .text-one  {
+  background-color: black;
+  width: 1200px;
+  height: 700px;
+  
+  }
+
+  .text-one p {
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin: 20px 20px;
+    padding: 20px;
+  }
+
+
+  .text-two {
+    background-color: black;
+  width: 1200px;
+  height: 570px;
+  }
+
+  .text-two p {
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin: 20px 20px;
+    padding: 20px;
+  }
+
+  .text-three {
+    background-color: black;
+    width: 1200px;
+    height: 450px;
+  }
+
+  .text-three p {
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin: 20px 20px;
+    padding: 20px;
+  }
+
+
+  .fss {
+    color: #0074D9;
+  }
+
+  .boty {
+    color: #FF8C00;
+  }
+
+  .ibe {
+    color: #ffff00;
+  }
+
+  .redbull {
+    color: #E21B4D;
+  }
+
+  .paris {
+    color: #D6AF36;
+  }
+
+  .footer {
+    margin: 200px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+  }
