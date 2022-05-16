@@ -191,7 +191,7 @@ a:focus::after{
   }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 400px){
   .container {
     display: flex;
     flex-direction: column;
