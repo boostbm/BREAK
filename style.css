@@ -177,7 +177,11 @@ a:focus::after{
   .paris {
     color: #D6AF36;
   }
-
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .footer {
     margin: 200px;
     padding: 100px;
