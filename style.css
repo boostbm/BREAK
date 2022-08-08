@@ -175,7 +175,7 @@ a:focus::after{
   }
 
   .paris {
-    color: rgb(248, 159, 71);
+    color: #bc7c3b;
   }
   .contact {
     display: flex;
